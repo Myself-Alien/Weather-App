@@ -1,0 +1,27 @@
+.App {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  text-align: center;
+}
+.WeatherBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.active
+{
+  background-color: #4128cd !important;
+  color: aliceblue !important;
+}
+.nav-tabs
+{
+  background-color: #fff !important;
+}
